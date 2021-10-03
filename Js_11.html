@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Percabangan IF-Else</title>
+</head>
+<body>
+    <script lang="javascript">
+    <!--
+    function tanyabilangan()
+    {
+        var bil = parseFloat(document.ffrom.bilangan.value);
+        var jenis = " ";
+        if (isNaN(bil))
+        {
+        alert("Anda belum memasukan Bilangan");
+        }
+    else
+    {
+        if (bil > 0)
+        {
+            jenis = "Adalah bilangan positive";
+        }
+    else if (bil < 0)
+    {
+        jenis = "Adalah Bilangan Negatif";
+    }
+    else
+    {
+        jenis = "Adalah nol";
+    }
+    alert (bil+" "+jenis);
+    }
+    }
+    //--></script>
+
+    <form name="ffrom">
+        <h2><break>Bilangan Negatif, Nol, Atau positive ???</h2>
+        Masukan Bilangan : <input type="text" size="11" name="bilangan">
+        <p>
+        <input type="button" value="Tanya" onclick="tanyabilangan()">
+        <input type="reset" value="Ulang">
+        </p>
+    </form>
+</body>
+</html>
